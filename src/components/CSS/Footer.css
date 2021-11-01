@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-color: #222222;
+}
+.footer-container {
+    width: 80%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+}
+.footer-container {
+    padding-bottom: 60px;
+    color: #f2f2f2;
+}
+.footer-item:first-child {
+    width: 80%;
+}
+.footer-item h2 {
+    text-transform: capitalize;
+    color: #fff200;
+    font-size: 25px;
+    font-family: 'SVNAdamGorry';
+    margin: 0 0 18px;
+    text-align: left;
+}
+.footer-item p {
+    text-align: justify;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;   
+}
+.footer-item{
+    background-image: url(https://f4.photo.talk.zdn.vn/4404398159728245790/aff2ad2840288876d139.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
